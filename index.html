@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu Portfólio</title>
+    <meta charset="UTF-8"> <!-- Para interpretar acentos da língua portuguesa -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para que a página se adeque ao formato mobile -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Relação = folha de estilo, href = referência de pasta onde está o arquivo -->
+  </head>
+  <body>
+    <!-- navbar (barra de navegação) -->
+    <header id="navbar"> <!-- Cabeçalho -->
+      <img src="img/shuriken.png" alt="Estrela Ninja"> <!-- src = caminho da imagem, alt = o que a imagem representa -->
+      <h2>Bruna Machado</h2>
+      <nav> <!-- Barra de navegação -->
+        <ul id="navbar-list"> <!-- Lista não ordenada -->
+          <li><a href="#">Sobre</a></li> <!-- li = itens da lista, a = tag usada para links, # = link sem segmento que poder adicionado depois -->
+          <li><a href="#">Projetos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header> 
+    <!-- fim navbar -->
+    <main> <!-- Aqui dentro fica o conteúdo principal do site -->
+      <!-- banner início -->
+      <div id="main-banner"> <!-- id = usado para chamar a estilização em css, div = basicamente um bloco de código -->
+        <div id="banner-info">
+          <h1>Bem vindo, eu sou a Bruna!</h1>
+          <img src="img/ninja.png" alt="Perfil Ninja">
+          <p>Desenvolvedora Front-end</p>
+        </div>
+      </div>
+      <!-- banner fim -->
+      <!-- about inicio -->
+      <section id="about-section"> <!-- seção do site -->
+        <h2>Sobre o meu jeito ninja de ser</h2>
+        <p>Movida pela curiosidade, pela vontade de vencer desafios e por tudo que me tirar da zona de conforto. Atualmente sou aluna do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas. Também sou uma grande entusiasta de cursos online. Quando se trata de programação, o modo autodidata está sempre on.</p>
+      </section>
+      <!-- about fim -->
+    </main>
+    <!-- skills inicio -->
+    <section id="skills-section">
+      <div class="container"> <!-- Retângulo -->
+        <div class="skills-container">
+          <img src="img/weapon1.png" alt="Weapons">
+          <h3>Meus Objetivos</h3>
+          <p>Estou disponível para participação em projetos de</p>
+          <p>desenvolvimento web como estagiária, freelancer, PJ ou</p>
+          <p>CLT (home office ou meio período). Meu principal objetivo é</p>
+          <p>absorver o maior conhecimento prático possível e compartilhar</p>
+          <p>o que venho aprendendo, contribuindo na</p>
+          <p>busca por melhorias e novas soluções.</p>
+        </div>
+        <div class="skills-container central">
+          <img src="img/weapon2.png" alt="Weapons">          
+          <h3>Desenvolvimento</h3>
+          <p>Minha maior paixão é desenvolver projetos web!</p>
+          <p class="subtitle">Linguagens que utilizo:</p>
+          <p>HTML, CSS e JavaScript.</p>
+          <p class="subtitle">Projetos que posso desenvolver:</p>
+          <p>Formulários, Sites institucionais, Sistemas de  baixa complexidade.</p>
+        </div> 
+        <div class="skills-container">
+          <img src="img/weapon3.png" alt="Weapons">
+          <h3>Estudos</h3>
+          <p>Busco evoluir constantemente meus conhecimentos como desenvolvedora.</p>
+          <p>A fim de aprimorar meus conhecimentos no pacote</p>
+          <p>básico de front-end (HTML, CSS e JavaScript), estou estudando</p>  
+          <p> o framework React.JS através de cursos online.</p>
+          <p>Também estou empenhada em dominar a linguagem Python.</p>
+          
+        </div>
+      </div>
+    </section>
+    <!-- skills fim -->
+    <!-- jobs inicio -->
+    <section id="jobs-section">
+      <h2>Veja meus últimos trabalhos:</h2>
+      <p>Aqui estão os meus trabalhos mais rescentes, para ver todos <a href="#">clique aqui.</a></p>
+      <div class="job-container">
+        <div class="job-box proj1"></div>
+        <div class="job-box proj2"></div>
+        <div class="job-box proj3"></div>
+      </div>
+      <div class="job-container">
+        <div class="job-box proj2"></div>
+        <div class="job-box proj3"></div>
+        <div class="job-box proj1"></div>
+      </div>
+    </section>
+    <!-- jobs fim -->
+    <!-- footer inicio -->
+    <footer>
+      <h2>Me mande uma mensagem</h2>
+      <p>Caso queira falar sobre algum projeto, me contratar para algum serviço, ou conversar sobre programação...</p>
+      <img src="img/ninja.png" alt="Perfil Ninja">
+      <form action="" method="">
+        <input type="text" name="name" placeholder="Seu nome">
+        <input type="email" name="email" placeholder="Seu e-mail">
+        <textarea name="msg" placeholder="Digite uma mensagem"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+      <p>Agradecimento à <span class="detail">Matheus Battisti - Hora de Codar</span></p>
+    </footer>
+    <!-- footer fim -->
+  </body>
+</html>
